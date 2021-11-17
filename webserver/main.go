@@ -13,3 +13,7 @@ func main() {
 	http.HandleFunc("/", firstPage)
 	http.ListenAndServe(":8000", nil)
 }
+//手动完成的
+//1.git pull
+//2.git push-> git pull
+//3.deploy
